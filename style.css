@@ -1,0 +1,301 @@
+ body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            padding: 0px;
+            background-color: rgba(248, 252, 255, 0.989);
+        }
+
+        img {
+            cursor: pointer;
+        }
+
+        .tab button {
+            width: 25vw;
+            background-color: white;
+            font-size: 17px;
+        }
+
+        .tab button:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .item-page {
+
+            height: 100vh;
+            width: 50vw;
+        }
+
+        .item-listss {
+
+            /* display: flex;
+            /* flex-direction: row; */
+            /* justify-content: center;
+            align-items: center; */
+
+            height: 360px;
+
+            width: 350px;
+            transition: all ease-in-out 3s;
+
+        }
+
+        .item {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 40px;
+            row-gap: 70px;
+
+        }
+
+        .all-products {
+            position: absolute;
+            top: 358px;
+            left: 281px;
+
+        }
+
+        /* .all-products {
+
+            width: 100vw;
+            /* height:1000vh; */
+
+        /* border: 2px solid red; */
+
+        /* } */
+
+        /* .item:hover {
+            /* border: 2px solid rgb(223, 215, 215);
+            opacity: 0.9; */
+
+
+        .img1 {
+            display: none;
+        }
+
+        .img:hover {
+            scale: 1.1;
+        }
+
+        .img2 {
+            display: none;
+            /* position: absolute;
+            bottom: 0px; */
+        }
+
+        .item-content {
+
+            display: none;
+            margin-top: 102px;
+            font-size: 20px;
+        }
+
+        .size-list {
+            display: flex;
+            column-gap: 10px;
+            margin-top: 10px;
+            margin-bottom: 25px;
+        }
+
+        .size {
+            border: 2px solid black;
+            padding: 4px;
+            border-radius: 8px;
+        }
+
+        .size:hover {
+            border: 2px solid pink;
+            cursor: pointer;
+        }
+
+        p2 {
+            color: red;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .item-content {
+            position: absolute;
+            top: 89px;
+            right: 183px;
+        }
+
+        .cols {
+            border: 2px solid black;
+            border-radius: 11px;
+            padding: 10px;
+        }
+
+        .retail {
+            display: none;
+        }
+
+        .pre {
+            color: red;
+            cursor: pointer;
+        }
+
+        .pre-price {
+            background-color: rgb(246, 232, 232);
+            position: absolute;
+            top: 171px;
+            right: 628px;
+            border-radius: 8px;
+            padding: 10px
+        }
+
+        .last-page {
+            display: flex;
+            flex-direction: row;
+            column-gap: 30px;
+            width: 400px;
+            height: 45px;
+            justify-content: center;
+            /* border: 2px solid orange; */
+        }
+
+        .nnn {
+            height: 16px;
+        }
+
+        li {
+
+            text-decoration-line: none;
+            list-style: none;
+
+
+
+        }
+
+        .navbar-list ul {
+            display: flex;
+            column-gap: 10px;
+            color: black;
+            margin-top: 24px;
+            margin-left: -35px;
+            cursor: pointer;
+        }
+
+        .navbar-list ul li:hover {
+            text-decoration: underline;
+        }
+
+        .navbar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 95vw;
+        }
+
+        .navbar-heading {
+            font-size: 17px;
+            margin-top: -11px;
+            font-weight: lighter;
+        }
+
+        .search-cart {
+            display: flex;
+            column-gap: 30px;
+            margin-top: 10px;
+            /* margin-right: 15px; */
+
+        }
+
+        .search-cart img {
+            border: 2px solid black;
+            border-radius: 18px;
+        }
+
+        .navbar-head {
+            position: sticky;
+            top: 0px;
+        }
+
+        .main-head {
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .main {
+            width: 95vw;
+        }
+
+        .description {
+            margin-top: 80px;
+        }
+
+        .navbar-type-list ul {
+            display: flex;
+            flex-direction: column;
+            row-gap: 15px;
+            cursor: pointer;
+            margin-left: -35px;
+
+
+
+
+        }
+
+        .navbar-type-list ul li:hover {
+            text-decoration: underline;
+        }
+
+        .navbar-type {
+            border: 2px solid black;
+            width: 230px;
+        }
+
+        .navbar-type p {
+            margin-top: 50px;
+            margin-bottom: 40px;
+            cursor: pointer;
+
+        }
+
+        .navbar-border {
+            border-bottom: 1px solid black;
+            margin-top: -8px;
+        }
+
+        .details {
+            display: none;
+        }
+
+        .item-page-head {
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: row;
+            column-gap: 20px;
+            margin-top: 106px;
+        }
+
+        .Data {
+            /* border: 2px solid orange; */
+            position: absolute;
+            top: 108px;
+            right: 280px;
+        }
+
+        .last-page {
+            border: 2px solid red;
+        }
+
+        .cart-nav ul {
+            display: flex;
+            flex-direction: row;
+            column-gap: 50px;
+            list-style: none;
+            height: 10px;
+        }
+
+        .last-page1 {
+            display: flex;
+            flex-direction: row;
+            column-gap: 50px;
+            list-style: none;
+            justify-content: center;
+            width: 400px;
+        }
